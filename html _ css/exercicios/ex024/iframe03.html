@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Uso de iframe</title>
+   <style>
+      body{
+         font-family: Arial, Helvetica, sans-serif;
+      }
+
+      iframe{
+         width: 95vw;
+         height: 400px;
+         border: 1px solid black;
+      }
+
+      a{
+         text-decoration: none;
+      }
+
+      .pr:hover{
+         color: rgb(81, 93, 105);
+      }
+
+      .sg:hover{
+         color: blue;
+      }
+
+      .tr:hover{
+         color: blueviolet;
+      }
+   </style>
+</head>
+<body>
+   <h1>faça uma escolha</h1>
+   <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, illo! Fugiat laudantium, molestias debitis accusantium possimus iure repudiandae velit nesciunt nisi asperiores voluptas, autem nobis id quibusdam suscipit nulla placeat!
+   </p>
+
+   <ul>
+      <li><a class="pr" href="páginas/pag01.html" target="frame">Primeira página</a></li>
+
+      <li><a class="sg" href="páginas/pag02.html" target="frame">Segunda página</a></li>
+
+      <li><a class="tr" href="páginas/pag03.html" target="frame">Terceira página</a></li>
+   </ul>
+
+   <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse incidunt veniam unde recusandae tenetur facilis non aut in quaerat doloribus libero nulla hic dolor blanditiis ipsam consequuntur rem, dicta sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda rem maxime veritatis quis iure eaque quas, quo facilis molestias, laudantium recusandae perferendis. In repellendus laudantium cum eaque quidem id perferendis!
+   </p>
+
+   <iframe name="frame" srcdoc="
+   <h1> Escolha um dos sites acima</h1>
+
+      <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptatem minus natus voluptate doloremque laudantium neque rerum tenetur consequuntur non deserunt repellat suscipit, recusandae quisquam qui eum tempora distinctio iste?
+      </p>">
+
+
+         [seu navegador não é compatível com isso]
+   </iframe>
+
+   <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea asperiores ad explicabo, voluptate ab adipisci quidem odio libero tempore. Quis nam voluptatem itaque animi dignissimos error atque, vero dolore asperiores. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas impedit error atque culpa laboriosam incidunt, pariatur, omnis deserunt quae dolorum similique. Distinctio unde consequatur aliquid nesciunt laborum fuga dolores eius?
+   </p>
+</body>
+</html>
