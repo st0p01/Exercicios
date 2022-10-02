@@ -9,7 +9,6 @@ print('''Suas opções:
 pc = randint(0,2)
 player = int(input('Sua escolha: '))
 
-time.sleep(1)
 print('JO')
 time.sleep(1)
 print('KEN')
